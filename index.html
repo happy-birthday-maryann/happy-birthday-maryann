@@ -94,6 +94,24 @@
       font-size: 1.2rem;
     }
 
+    /* Video Section */
+    .video-section {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #eaf7ff;
+    }
+
+    .video-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .video-section video {
+      max-width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
     /* Wishes Section */
     .wishes {
       text-align: center;
@@ -162,11 +180,19 @@
     <p>Aneke Nnenna Maryann is a shining light in our lives. Today, we celebrate the love, kindness, and beauty she brings to the world.</p>
   </section>
 
-    
-     
-    
+  <section class="video-section">
+    <h2>Watch a Special Birthday Video</h2>
+    <video controls>
+      <source src="birthday_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
-
+  <section class="wishes">
+    <h2>Leave a Birthday Wish</h2>
+    <textarea placeholder="Type your wish here... AMEN"></textarea>
+    <button>Send Wish</button>
+  </section>
 
   <footer>
     <p>Made with ❤ for Aneke Nnenna Maryann</p>
